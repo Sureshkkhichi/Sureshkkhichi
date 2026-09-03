@@ -1,0 +1,76 @@
+from pathlib import Path
+
+OUTPUT = Path("assets/profile-header.svg")
+
+svg = """<svg width="1000" height="280" viewBox="0 0 1000 280"
+xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="1000" height="280" rx="18" fill="#0d1117"/>
+  <rect x="1" y="1" width="998" height="278" rx="17"
+        fill="none" stroke="#30363d"/>
+
+  <!-- Terminal Header -->
+  <rect width="1000" height="48" rx="18" fill="#161b22"/>
+  <rect y="30" width="1000" height="18" fill="#161b22"/>
+
+  <circle cx="28" cy="24" r="7" fill="#ff5f56"/>
+  <circle cx="52" cy="24" r="7" fill="#ffbd2e"/>
+  <circle cx="76" cy="24" r="7" fill="#27c93f"/>
+
+  <text x="105" y="30"
+        font-family="Menlo, Monaco, Consolas, monospace"
+        font-size="16"
+        fill="#8b949e">
+    suresh@github — profile
+  </text>
+
+  <!-- Command -->
+  <text x="55" y="95"
+        font-family="Menlo, Monaco, Consolas, monospace"
+        font-size="20"
+        fill="#58a6ff">
+    $ whoami
+  </text>
+
+  <!-- Name -->
+  <text x="55" y="145"
+        font-family="Arial, sans-serif"
+        font-size="38"
+        font-weight="bold"
+        fill="#f0f6fc">
+    Suresh Khichi
+  </text>
+
+  <!-- Role -->
+  <text x="55" y="180"
+        font-family="Arial, sans-serif"
+        font-size="21"
+        fill="#58a6ff">
+    Tech Solutions Specialist
+  </text>
+
+  <!-- Description -->
+  <text x="55" y="225"
+        font-family="Menlo, Monaco, Consolas, monospace"
+        font-size="16"
+        fill="#8b949e">
+    Building scalable web applications, CRM &amp; ERP solutions.
+  </text>
+
+  <!-- Status -->
+  <circle cx="55" cy="255" r="6" fill="#3fb950"/>
+
+  <text x="70" y="260"
+        font-family="Menlo, Monaco, Consolas, monospace"
+        font-size="14"
+        fill="#3fb950">
+    AVAILABLE FOR BUILDING SOLUTIONS
+  </text>
+
+</svg>
+"""
+
+OUTPUT.parent.mkdir(exist_ok=True)
+OUTPUT.write_text(svg, encoding="utf-8")
+
+print(f"Generated: {OUTPUT}")
