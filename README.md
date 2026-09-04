@@ -58,11 +58,11 @@ I specialize in **large-scale Web Applications, Custom CRM & ERP Platforms, Busi
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🥛 LeaDairy — Dairy Supply Chain & ERP (Web + App)</h4>
-      <p>Mission-critical ERP & procurement ecosystem for dairy collection centers, chilling plants, and route dispatch.</p>
+      <h4>🏢 Leadairy — Real Estate CRM & Lead Diary (App + Web)</h4>
+      <p>Specialized property sales CRM with mobile diary, site visit dispatch, and pipeline tracking.</p>
       <ul>
-        <li><b>Core:</b> Offline-first milk intake, FAT/SNF automated rate calculation, hardware weighing/printer integration, and automated farmer settlements.</li>
-        <li><b>Stack:</b> <code>Laravel</code> • <code>Flutter</code> • <code>PostgreSQL</code> • <code>Docker</code></li>
+        <li><b>Core:</b> Lead timeline & call logging, automated site visit scheduling, WhatsApp inquiry routing, and agent deal analytics.</li>
+        <li><b>Stack:</b> <code>Flutter</code> • <code>Dart</code> • <code>Laravel</code> • <code>PHP</code> • <code>MySQL</code> • <code>REST APIs</code></li>
       </ul>
     </td>
     <td width="50%" valign="top">
