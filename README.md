@@ -58,61 +58,73 @@ I specialize in **large-scale Web Applications, Custom CRM & ERP Platforms, Busi
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🏢 SKN CRM — Custom Enterprise CRM</h4>
-      <p>End-to-end customer relationship & sales pipeline system built to replace fragmented spreadsheets and legacy tools.</p>
+      <h4>🥛 LeaDairy — Dairy Supply Chain & ERP (Web + App)</h4>
+      <p>Mission-critical ERP & procurement ecosystem for dairy collection centers, chilling plants, and route dispatch.</p>
       <ul>
-        <li><b>Core Capabilities:</b> Multi-tier lead capture, automated follow-up triggers, sales funnel visualization, role-based ACL, and real-time team analytics.</li>
-        <li><b>Stack:</b> <code>Laravel</code> • <code>PHP</code> • <code>MySQL</code> • <code>Redis</code> • <code>REST APIs</code></li>
-        <li><b>Impact:</b> Boosted operational velocity and lead conversion turnaround by over 40%.</li>
+        <li><b>Core:</b> Offline-first milk intake, FAT/SNF automated rate calculation, hardware weighing/printer integration, and automated farmer settlements.</li>
+        <li><b>Stack:</b> <code>Laravel</code> • <code>Flutter</code> • <code>PostgreSQL</code> • <code>Docker</code></li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>🥛 LeaDairy — Dairy Supply Chain ERP</h4>
-      <p>Mission-critical ERP platform tailored for daily milk collection, route dispatch, inventory, and vendor accounting.</p>
+      <h4>📊 Omnichannel Lead Management CRM (Web + App)</h4>
+      <p>High-velocity lead distribution and sales pipeline suite across Real Estate, Banking, and Retail.</p>
       <ul>
-        <li><b>Core Capabilities:</b> Dynamic billing rates, fat/SNF quality calculations, route logistics management, and automated daily payouts.</li>
-        <li><b>Stack:</b> <code>Laravel</code> • <code>PostgreSQL</code> • <code>Livewire/Alpine</code> • <code>Docker</code></li>
-        <li><b>Impact:</b> Automated daily audits and eliminated manual ledger discrepancies for high-volume collection centers.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>💳 WabPay — Real Estate E-Commerce Portal</h4>
-      <p>High-security real estate transaction and listing engine with integrated digital payment gateways.</p>
-      <ul>
-        <li><b>Core Capabilities:</b> Real estate inventory discovery, token payment processing, buyer-seller portals, and automated document generation.</li>
-        <li><b>Stack:</b> <code>Laravel</code> • <code>CakePHP</code> • <code>Payment Gateways</code> • <code>Nginx</code></li>
-        <li><b>Impact:</b> Enabled seamless digital property booking and audit-compliant transactions.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🌐 HRX Jobs — Global Talent & Recruitment Engine</h4>
-      <p>High-throughput international job portal connecting multinational recruiters with pre-screened talent pools.</p>
-      <ul>
-        <li><b>Core Capabilities:</b> Smart resume filtering, candidate matching algorithm, employer subscriptions, and applicant tracking (ATS).</li>
-        <li><b>Stack:</b> <code>PHP</code> • <code>Laravel</code> • <code>MySQL</code> • <code>Elasticsearch/Search Ops</code></li>
-        <li><b>Impact:</b> Streamlined thousands of job applications with sub-second search speeds.</li>
+        <li><b>Core:</b> Instant webhook lead ingestion (Meta/Google Ads), round-robin agent assignment, automated WhatsApp follow-ups, and sales tracking.</li>
+        <li><b>Stack:</b> <code>Laravel</code> • <code>Flutter</code> • <code>MySQL</code> • <code>Redis</code> • <code>WhatsApp API</code></li>
       </ul>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🎓 Just Academy — Scalable Learning Management Portal</h4>
-      <p>Interactive EdTech platform engineered for online courses, assessments, and student progress tracking.</p>
+      <h4>🏠 Rajasthan Awas Wale — Real Estate Marketplace</h4>
+      <p>Specialized regional property discovery and buyer-builder engagement platform.</p>
       <ul>
-        <li><b>Core Capabilities:</b> Video streaming delivery, quiz engines, automated certification generation, and instructor dashboards.</li>
-        <li><b>Stack:</b> <code>Laravel</code> • <code>PHP</code> • <code>Media APIs</code> • <code>TailwindCSS</code></li>
-        <li><b>Impact:</b> Successfully scaled to thousands of concurrent active learners with zero downtime.</li>
+        <li><b>Core:</b> Interactive map-based neighborhood search, verified builder listings, instant WhatsApp agent routing, and dynamic EMI calculators.</li>
+        <li><b>Stack:</b> <code>Laravel</code> • <code>PHP</code> • <code>MySQL</code> • <code>Geo APIs</code> • <code>TailwindCSS</code></li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h4>🎉 Fundooz — Custom E-Commerce & Retail Platform</h4>
-      <p>Consumer-facing celebration and customized gift e-commerce platform with high conversion checkout.</p>
+      <h4>📒 Udhar App — Digital Ledger & Credit System (Khata)</h4>
+      <p>Secure micro-business credit/debit tracking app with automated debt recovery reminders.</p>
       <ul>
-        <li><b>Core Capabilities:</b> Dynamic product customizer, courier/shipping API integrations, order lifecycle tracking, and discount matrix.</li>
-        <li><b>Stack:</b> <code>PHP</code> • <code>Custom E-Commerce Engine</code> • <code>MySQL</code></li>
-        <li><b>Impact:</b> Reduced checkout friction and improved mobile conversion rates by 25%.</li>
+        <li><b>Core:</b> Offline-first ledger balance sync, automated WhatsApp/SMS payment reminders with UPI links, and one-tap PDF statements.</li>
+        <li><b>Stack:</b> <code>Flutter</code> • <code>Dart</code> • <code>SQLite</code> • <code>Laravel API</code> • <code>FCM</code></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>📦 Enterprise Order Management System (OMS)</h4>
+      <p>Multi-channel order orchestration engine from payment authorization to warehouse fulfillment.</p>
+      <ul>
+        <li><b>Core:</b> Asynchronous order queues, fraud verification, 3PL courier integrations (Shiprocket/Delhivery), and automated AWB generation.</li>
+        <li><b>Stack:</b> <code>Laravel</code> • <code>Redis Queues</code> • <code>MySQL</code> • <code>Logistics APIs</code></li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🏭 Warehouse & Inventory Management System (IMS)</h4>
+      <p>Multi-location stock control system with real-time supply chain visibility.</p>
+      <ul>
+        <li><b>Core:</b> SKU & barcode scanning, low-stock threshold triggers, automated PO drafts, FIFO/LIFO batch valuation, and audit logging.</li>
+        <li><b>Stack:</b> <code>PHP</code> • <code>Laravel</code> • <code>PostgreSQL</code> • <code>Barcode Engine</code></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🏥 Healthcare Clinic & OPD Management System</h4>
+      <p>Clinical administration platform streamlining patient visits, token queues, and EHR.</p>
+      <ul>
+        <li><b>Core:</b> Live WebSocket token queue display, doctor e-prescription autocompletion, diagnosis records (EHR), and OPD billing desk.</li>
+        <li><b>Stack:</b> <code>Laravel</code> • <code>PostgreSQL</code> • <code>WebSockets</code> • <code>Vue.js</code></li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>💳 WabPay & HRX Global Jobs — Fintech & Talent Portals</h4>
+      <p>Proven high-traffic production portals handling digital transactions and recruitment.</p>
+      <ul>
+        <li><b>Core:</b> Tokenized property e-commerce, secure gateway checkouts, high-speed candidate filtering (ATS), and automated subscription billing.</li>
+        <li><b>Stack:</b> <code>Laravel</code> • <code>CakePHP</code> • <code>Payment Gateways</code> • <code>Search Ops</code></li>
       </ul>
     </td>
   </tr>
